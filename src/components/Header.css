@@ -1,0 +1,38 @@
+@import '../variables.css';
+  .header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .logo {
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 1px;
+    margin-right: 3rem;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: var(--silver);
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: var(--ruby-red);
+  }
+  
